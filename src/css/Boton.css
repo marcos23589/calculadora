@@ -1,0 +1,48 @@
+.boton-contenedor {
+    height: 83px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #4C5C68;
+    color: white;
+    border: 2px solid #2F6690;
+    border-radius: 10px;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .boton-contenedor:hover {
+    background-color: #46494C;
+  }
+  
+  .operador {
+    background-color: #1985A1;
+  }
+  
+  .operador:hover {
+    background-color: #4C5C68;
+  }
+
+  .boton-clear {
+    height: 80px;
+    font-size: 1.9em;
+    display: flex;
+    flex: 1;
+    background-color: #3A7CA5;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    border: 2px solid #2F6690;
+    border-radius: 45px;
+    cursor: pointer;      
+  }
+  
+  .boton-clear:hover {
+    background-color: #16425B;
+  }
